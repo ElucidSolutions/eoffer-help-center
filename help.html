@@ -1,0 +1,662 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-us" class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="Shortcut Icon" href="images/favicon.ico" type="image/x-icon" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+<title>eOffer/eMod Video Library</title>
+<!--[if lt IE 9]>
+  <script src="common/assets/js/html5.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="common/assets/css/baseline.css" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<!--[if lte IE 8]>
+<link rel="stylesheet" media="print" href="common/assets/css/print.css" type="text/css" />
+<![endif]-->
+<link
+	href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600'
+	rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="common/assets/css/jquery.sidr.css">
+<!--[if (gt IE 8) | (IEMobile)]><!-->
+<link rel="stylesheet"
+	href="common/assets/css/unsemantic-grid-responsive.css" />
+<!--<![endif]-->
+<!--[if (lt IE 9) & (!IEMobile)]>
+  <link rel="stylesheet" href="common/assets/css/ie.css" />
+<![endif]-->
+
+
+<!-- Include Jquery -->
+<!-- <script src="http://code.jquery.com/jquery-1.9.1.js"></script> -->
+<script src="common/assets/js/jquery-1.9.1.js"></script>
+
+<!--Font Resize JS -->
+<script type="text/javascript"
+	src="common/assets/js/jquery.cookie.js"></script>
+<script type="text/javascript"
+	src="common/assets/js/fontresize.js"></script>
+
+<!-- Scroll bar JS/CSS -->
+
+<link href="common/library/scrollbar/jquery.mCustomScrollbar.css"
+	rel="stylesheet" />
+
+<!-- Show/Hide definition pop-up -->
+<script language="javascript" type="text/javascript">
+	function showHideDiv() {
+		// declare variables
+		var popupVisibility = new String();
+		var popupDisplay = new String();
+
+		// assign variables
+		popupVisibility = document.getElementById("popupDefinitionBox").style.visibility;
+		popupDisplay = document.getElementById("popupDefinitionBox").style.display;
+
+		// test and reassign variables
+		if ((popupVisibility.toLowerCase() == "visible" || popupVisibility == "")
+				&& (popupDisplay.toLowerCase() == "inline")) {
+			document.getElementById("popupDefinitionBox").style.visibility = "hidden";
+			document.getElementById("popupDefinitionBox").style.display = "none";
+
+		} else {
+			document.getElementById("popupDefinitionBox").style.visibility = "visible";
+			document.getElementById("popupDefinitionBox").style.display = "inline";
+		}
+	}
+</script>
+
+<!-- fancyBox (the lightbox feature) main JS and CSS files -->
+<script type="text/javascript"
+	src="common/library/fancybox2/source/jquery.fancybox.js"></script>
+<link rel="stylesheet" type="text/css"
+	href="common/library/fancybox2/source/jquery.fancybox.css"
+	media="screen" />
+<script type="text/javascript" src="common/assets/js/nestednav.js"></script>
+
+<!-- Carousel implementation -->
+<!-- bxSlider Javascript file -->
+<script src="common/assets/js/jquery.bxslider.min.js"></script>
+
+<!-- bxSlider CSS file -->
+<link href="common/assets/css/jquery.bxslider.css"
+	rel="stylesheet" />
+<script type="text/javascript">
+	$(document).ready(function() {
+
+		$('.bxslider').bxSlider({
+			auto : true,
+			autoControls : true,
+			pause : 10000
+
+		});
+
+	});
+</script>
+<!-- Flowplayer -->
+<script type="text/javascript"
+	src="common/library/flowplayer/flowplayer-3.2.11.min.js"></script>
+
+<!--
+This script annotates all sections under the element with id "container".
+A table of contents is inserted under the element with id "insertTOC", if any.
+Full text search index is available in the object named "textIndex".
+-->
+<script src="common/videos.js"></script>
+<link rel="stylesheet" type="text/css" href="common/videos.css" />
+
+<!-- end annotation block -->
+<!-- Media Queries -->
+
+<link rel="stylesheet" type="text/css"
+	href="common/assets/css/media-queries.css" />
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44414724-3', 'elucidsolutionsinc.com');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-44414724-3']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</head>
+<body>
+
+	<!-- Header and Main Navigation -->
+
+	<div id="header" class="grid-100 mobile-grid-100">
+
+		<div id="navigationBar">
+				<!--<div id="navButton">
+				<a id="navTrigger" href="#sidr"></a>
+			</div> -->
+			
+				<a href="index.html" class="title">eOffer/eMod <span class="helpCenter">Help
+						Center</span></a>
+			
+
+			<!--<input type "search" name="search" id="menuSearchField" placeholder="Search" />-->
+			<div class="delayed-clearfix"></div>
+			<a class="helpType helpTypeActive helpVideos" href="help.html">Help Videos</a>
+			<a class="helpType userGuide" href="./index.html">User Guide</a>
+
+			
+			<div class="clearfix"></div>
+		</div>
+		<div id="mainNav">
+			<div class="clearfix"></div>
+		</div>
+
+		<!-- Main Content -->
+		<div id="mainContent" class="mainer">
+			<div id="container-home">
+
+				<div class="grid-100 mobile-grid-100">
+					
+
+					<div class="screenshotContainer">
+						<div class="screenshotBox">
+						<p>
+							<span id="current-clip-title"></span><br /> <span id="current-clip-category"></span>
+						</p>
+
+							<a class="myPlayer"
+								style="background-image: url(images/stills/01.png)" id="player">
+								<img src="images/play_large.png"
+								alt="Acquisition Management Systems Support" />
+							</a>
+							<div class="screenshotText">
+								<p class="figCaption"></p>
+								<p class="clickTo"></p>
+							</div>
+
+							<div id="navigator" class="navigator-video">
+								<div class="tab-categories">
+									<div class="tab tab-category-eoffer">
+										<a onclick="window.eOfferPlaylist();">eOffer</a>
+									</div>
+									<div class="tab tab-category-emod">
+										<a onclick="window.eModPlaylist();">eMod</a>
+									</div>
+									<div class="tab tab-category-hints">
+										<a onclick="window.hintsPlaylist();">Helpful Hints</a>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+
+								<div class="browser browser-left">
+									<div class="search-bar">
+										<div class="search-box">
+											<input name="transcript-search" type="text"
+												placeholder="Search videos">
+										</div>
+									</div>
+									<div class="nav-bar">
+										<div class="nav-expand">
+											<a></a>
+										</div>
+										<div class="nav-collapse">
+											<a></a>
+										</div>
+										<div class="clearfix"></div>
+									</div>
+									<div class="container container-directory">
+										<ol id="directory">
+										</ol>
+									</div>
+									<div id="container-search" class="container container-search">
+									</div>
+								</div>
+								<div class="browser browser-right">
+									<div class="tabs">
+										<div class="tab tab-details">
+											<a></a>
+										</div>
+										<div class="tab tab-transcript">
+											<a></a>
+										</div>
+										<div class="clearfix"></div>
+									</div>
+									<div class="container container-details">
+										<div class="content content-details">
+											<div id="details"></div>
+										</div>
+									</div>
+									<div class="container container-transcript">
+										<div class="content content-transcript">
+											<div id="transcript"></div>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Start footer -->
+		<div id="footer">
+			<p>
+				Brought to you by OAM &amp; Elucid Solutions Inc<br />There have
+				been
+				<script id="mphitcount"
+					src="http://mphitcount.appspot.com/mphitcount"></script>
+				views of this page.
+			</p>
+		</div>
+		<!-- End Footer -->
+
+<script language="JavaScript">
+	window.eOfferPlaylist = function() {
+		$(".tab").removeClass("tab-category-selected");
+		$(".tab-category-eoffer").addClass("tab-category-selected");
+		window.initWithPlaylist([ 
+				{
+					url: 'videos/eoffer/eoffer_emod_homepage.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_emod_homepage.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_sign_in.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_sign_in.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_my_eoffers.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_my_eoffers.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_creating_eoffer.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_creating_eoffer.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_corporate_information.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_corporate_information.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_authorized_negotiators.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_authorized_negotiators.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_goods_services.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_goods_services.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_standard_responses.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_standard_responses.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_solicitation_clauses_overview.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_solicitation_clauses_overview.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_solicitation_clauses_basic_info.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_solicitation_clauses_basic_info.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_solicitation_clauses_csp.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_solicitation_clauses_csp.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_solicitation_clauses_poc.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_solicitation_clauses_poc.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_solicitation_clauses_ordering.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_solicitation_clauses_ordering.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_subk_overview.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_subk_overview.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_subk_identification.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_subk_identification.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_subk_goals.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_subk_goals.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_subk_admin.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_subk_admin.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_subk_equitable_opportunity.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_subk_equitable_opportunity.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_subk_clause_inclusion.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_subk_clause_inclusion.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_subk_reporting.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_subk_reporting.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_subk_record_keeping.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_subk_record_keeping.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_subk_statutory.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_subk_statutory.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_subk_good_faith.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_subk_good_faith.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_exceptions.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_exceptions.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_upload.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_upload.xml',
+				},
+				{
+					url: 'videos/eoffer/eoffer_final.mp4',	
+					captionUrl:'videos/captions/eoffer/eoffer_final.xml',
+				}
+
+		]);
+	};
+	window.eModPlaylist = function() {
+		$(".tab").removeClass("tab-category-selected");
+		$(".tab-category-emod").addClass("tab-category-selected");
+		window.initWithPlaylist([ 
+				{
+					url: 'videos/emod/emod_sign_in.mp4',	
+					captionUrl:'videos/captions/emod/emod_sign_in.xml',
+				},
+				{
+					url: 'videos/emod/emod_my_modifications.mp4',	
+					captionUrl:'videos/captions/emod/emod_my_modifications.xml',
+				},
+				{
+					url: 'videos/emod/emod_creating_emod.mp4',	
+					captionUrl:'videos/captions/emod/emod_creating_emod.xml',
+				},
+				{
+					url: 'videos/emod/emod_modtype_selection.mp4',	
+					captionUrl:'videos/captions/emod/emod_modtype_selection.xml',
+				},
+				{
+					url: 'videos/emod/emod_add_labor_service.mp4',	
+					captionUrl:'videos/captions/emod/emod_add_labor_service.xml',
+				},
+				{
+					url: 'videos/emod/emod_add_product.mp4',	
+					captionUrl:'videos/captions/emod/emod_add_product.xml',
+				},
+				{
+					url: 'videos/emod/emod_add_sin.mp4',	
+					captionUrl:'videos/captions/emod/emod_add_sin.xml',
+				},
+				{
+					url: 'videos/emod/emod_address_change.mp4',	
+					captionUrl:'videos/captions/emod/emod_address_change.xml',
+				},
+				{
+					url: 'videos/emod/emod_contract_admin_poc.mp4',	
+					captionUrl:'videos/captions/emod/emod_contract_admin_poc.xml',
+				},
+				{
+					url: 'videos/emod/emod_authorized_negotiator.mp4',	
+					captionUrl:'videos/captions/emod/emod_authorized_negotiator.xml',
+				},
+				{
+					url: 'videos/emod/emod_email_change.mp4',	
+					captionUrl:'videos/captions/emod/emod_email_change.xml',
+				},
+				{
+					url: 'videos/emod/emod_fax_change.mp4',	
+					captionUrl:'videos/captions/emod/emod_fax_change.xml',
+				},
+				{
+					url: 'videos/emod/emod_poc_manufacturers_dealers_resellers_agents.mp4',	
+					captionUrl:'videos/captions/emod/emod_poc_manufacturers_dealers_resellers_agents.xml',
+				},
+				{
+					url: 'videos/emod/emod_telephone_change.mp4',	
+					captionUrl:'videos/captions/emod/emod_telephone_change.xml',
+				},
+				{
+					url: 'videos/emod/emod_website_change.mp4',	
+					captionUrl:'videos/captions/emod/emod_website_change.xml',
+				},
+				{
+					url: 'videos/emod/emod_cancel_contract.mp4',	
+					captionUrl:'videos/captions/emod/emod_cancel_contract.xml',
+				},
+				{
+					url: 'videos/emod/emod_delete_labor_service.mp4',	
+					captionUrl:'videos/captions/emod/emod_delete_labor_service.xml',
+				},
+				{
+					url: 'videos/emod/emod_delete_product.mp4',	
+					captionUrl:'videos/captions/emod/emod_delete_product.xml',
+				},
+				{
+					url: 'videos/emod/emod_delete_sin.mp4',	
+					captionUrl:'videos/captions/emod/emod_delete_sin.xml',
+				},
+				{
+					url: 'videos/emod/emod_change_name.mp4',	
+					captionUrl:'videos/captions/emod/emod_change_name.xml',
+				},
+				{
+					url: 'videos/emod/emod_novation_agreement.mp4',	
+					captionUrl:'videos/captions/emod/emod_novation_agreement.xml',
+				},
+				{
+					url: 'videos/emod/emod_temp_price_reduction.mp4',	
+					captionUrl:'videos/captions/emod/emod_temp_price_reduction.xml',
+				},
+				{
+					url: 'videos/emod/emod_epa_with_cpl.mp4',	
+					captionUrl:'videos/captions/emod/emod_epa_with_cpl.xml',
+				},
+				{
+					url: 'videos/emod/emod_epa_without_cpl.mp4',	
+					captionUrl:'videos/captions/emod/emod_epa_without_cpl.xml',
+				},
+				{
+					url: 'videos/emod/emod_ppr_mfc.mp4',	
+					captionUrl:'videos/captions/emod/emod_ppr_mfc.xml',
+				},
+				{
+					url: 'videos/emod/emod_ppr_ipr.mp4',	
+					captionUrl:'videos/captions/emod/emod_ppr_ipr.xml',
+				},
+				{
+					url: 'videos/emod/emod_wage_determinations.mp4',	
+					captionUrl:'videos/captions/emod/emod_wage_determinations.xml',
+				},
+				{
+					url: 'videos/emod/emod_scope_change.mp4',	
+					captionUrl:'videos/captions/emod/emod_scope_change.xml',
+				},
+				{
+					url: 'videos/emod/emod_parts_change.mp4',	
+					captionUrl:'videos/captions/emod/emod_parts_change.xml',
+				},
+				{
+					url: 'videos/emod/emod_product_descriptive_change.mp4',	
+					captionUrl:'videos/captions/emod/emod_product_descriptive_change.xml',
+				},
+				{
+					url: 'videos/emod/emod_service_descriptive_change.mp4',	
+					captionUrl:'videos/captions/emod/emod_service_descriptive_change.xml',
+				},
+				{
+					url: 'videos/emod/emod_arra.mp4',	
+					captionUrl:'videos/captions/emod/emod_arra.xml',
+				},
+				{
+					url: 'videos/emod/emod_create_manage_clause_exceptions.mp4',	
+					captionUrl:'videos/captions/emod/emod_create_manage_clause_exceptions.xml',
+				},
+				{
+					url: 'videos/emod/emod_coop_purchasing.mp4',	
+					captionUrl:'videos/captions/emod/emod_coop_purchasing.xml',
+				},
+				{
+					url: 'videos/emod/emod_disaster_recovery.mp4',	
+					captionUrl:'videos/captions/emod/emod_disaster_recovery.xml',
+				},
+				{
+					url: 'videos/emod/emod_everify.mp4',	
+					captionUrl:'videos/captions/emod/emod_everify.xml',
+				},
+				{
+					url: 'videos/emod/emod_rerep_nonnovated_merger_acq.mp4',	
+					captionUrl:'videos/captions/emod/emod_rerep_nonnovated_merger_acq.xml',
+				},
+				{
+					url: 'videos/emod/emod_rerep_business_size.mp4',	
+					captionUrl:'videos/captions/emod/emod_rerep_business_size.xml',
+				},
+				{
+					url: 'videos/emod/emod_revise_tandc.mp4',	
+					captionUrl:'videos/captions/emod/emod_revise_tandc.xml',
+				},
+				{
+					url: 'videos/emod/emod_rerep_business_type.mp4',	
+					captionUrl:'videos/captions/emod/emod_rerep_business_type.xml',
+				},
+				{
+					url: 'videos/emod/emod_update_csp.mp4',	
+					captionUrl:'videos/captions/emod/emod_update_csp.xml',
+				},
+				{
+					url: 'videos/emod/emod_subk_overview.mp4',	
+					captionUrl:'videos/captions/emod/emod_subk_overview.xml',
+				},
+				{
+					url: 'videos/emod/emod_subk_identification.mp4',	
+					captionUrl:'videos/captions/emod/emod_subk_identification.xml',
+				},
+				{
+					url: 'videos/emod/emod_subk_goals.mp4',	
+					captionUrl:'videos/captions/emod/emod_subk_goals.xml',
+				},
+				{
+					url: 'videos/emod/emod_subk_admin.mp4',	
+					captionUrl:'videos/captions/emod/emod_subk_admin.xml',
+				},
+				{
+					url: 'videos/emod/emod_subk_equitable_opportunity.mp4',	
+					captionUrl:'videos/captions/emod/emod_subk_equitable_opportunity.xml',
+				},
+				{
+					url: 'videos/emod/emod_subk_clause_inclusion.mp4',	
+					captionUrl:'videos/captions/emod/emod_subk_clause_inclusion.xml',
+				},
+				{
+					url: 'videos/emod/emod_subk_reporting.mp4',	
+					captionUrl:'videos/captions/emod/emod_subk_reporting.xml',
+				},
+				{
+					url: 'videos/emod/emod_subk_record_keeping.mp4',	
+					captionUrl:'videos/captions/emod/emod_subk_record_keeping.xml',
+				},
+				{
+					url: 'videos/emod/emod_subk_statutory.mp4',	
+					captionUrl:'videos/captions/emod/emod_subk_statutory.xml',
+				},
+				{
+					url: 'videos/emod/emod_subk_good_faith.mp4',	
+					captionUrl:'videos/captions/emod/emod_subk_good_faith.xml',
+				},
+				{
+					url: 'videos/emod/emod_upload.mp4',	
+					captionUrl:'videos/captions/emod/emod_upload.xml',
+				},
+				{
+					url: 'videos/emod/emod_final_review.mp4',	
+					captionUrl:'videos/captions/emod/emod_final_review.xml',
+				}
+		]);
+	};
+	window.hintsPlaylist = function() {
+		$(".tab").removeClass("tab-category-selected");
+		$(".tab-category-hints").addClass("tab-category-selected");
+		window.initWithPlaylist([ 
+				{
+					url: 'videos/helpfulhints/authorized_negotiator_general_importance.mp4',	
+					captionUrl:'videos/captions/helpfulhints/authorized_negotiator_general_importance.xml',
+				},
+				{
+					url: 'videos/helpfulhints/authorized_negotiator_system_validations.mp4',	
+					captionUrl:'videos/captions/helpfulhints/authorized_negotiator_system_validations.xml',
+				},
+				{
+					url: 'videos/helpfulhints/authorized_negotiator_adding_negotiators.mp4',	
+					captionUrl:'videos/captions/helpfulhints/authorized_negotiator_adding_negotiators.xml',
+				},
+				{
+					url: 'videos/helpfulhints/digital_cert_intro.mp4',	
+					captionUrl:'videos/captions/helpfulhints/digital_cert_intro.xml',
+				},
+				{
+					url: 'videos/helpfulhints/digital_cert_obtaining.mp4',	
+					captionUrl:'videos/captions/helpfulhints/digital_cert_obtaining.xml',
+				},
+				{
+					url: 'videos/helpfulhints/digital_cert_import_ie.mp4',	
+					captionUrl:'videos/captions/helpfulhints/digital_cert_import_ie.xml',
+				},
+				{
+					url: 'videos/helpfulhints/digital_cert_import_ff.mp4',	
+					captionUrl:'videos/captions/helpfulhints/digital_cert_import_ff.xml',
+				},
+				{
+					url: 'videos/helpfulhints/digital_cert_verifying_ie.mp4',	
+					captionUrl:'videos/captions/helpfulhints/digital_cert_verifying_ie.xml',
+				},
+				{
+					url: 'videos/helpfulhints/digital_cert_verifying_ff.mp4',	
+					captionUrl:'videos/captions/helpfulhints/digital_cert_verifying_ff.xml',
+				},
+				{
+					url: 'videos/helpfulhints/digital_cert_exporting_ie.mp4',	
+					captionUrl:'videos/captions/helpfulhints/digital_cert_exporting_ie.xml',
+				},
+				{
+					url: 'videos/helpfulhints/digital_cert_exporting_ff.mp4',	
+					captionUrl:'videos/captions/helpfulhints/digital_cert_exporting_ff.xml',
+				},
+				{
+					url: 'videos/helpfulhints/digital_cert_good_steward.mp4',	
+					captionUrl:'videos/captions/helpfulhints/digital_cert_good_steward.xml',
+				}
+		]);
+	};
+	$(document).ready(function() {
+		window.eOfferPlaylist();
+	} );
+</script>
+</body>
+</html>
+

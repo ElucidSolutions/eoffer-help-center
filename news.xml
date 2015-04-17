@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel>
+	<title>Featured Additions</title>
+	<link>http://elucidsolutions.com</link>
+	<description>Featured articles that we would like to bring to your
+		attention.
+	</description>
+	<pubDate>Tue, 17 Sep 2013 12:05:33 EDT</pubDate>
+	
+	<item>
+		<title>November 2014 Release with Updates to eOffer/eMod</title>
+		<description>GSA has made recent updates to eOffer/eMod. Find out the details of the udpate and how they impact you today.
+		</description>
+		<pubDate>10/28/2014</pubDate>
+		<link>additions/additions-005.html</link>
+		<author></author>
+		<category>Doc</category>
+	</item>
+
+	<item>
+		<title>September 2014 Release with Updates to eOffer/eMod</title>
+		<description>GSA has made recent updates to eOffer/eMod. Find out the details of the udpate and how they impact you today.
+		</description>
+		<pubDate>10/27/2014</pubDate>
+		<link>additions/additions-004.html</link>
+		<author></author>
+		<category>Doc</category>
+	</item>
+
+	<item>
+		<title>May 2014 Release with Updates to eOffer/eMod</title>
+		<description>GSA has made recent updates to eOffer/eMod. Find out the details of the udpate and how they impact you today.
+		</description>
+		<pubDate>7/2/2014</pubDate>
+		<link>additions/additions-003.html</link>
+		<author></author>
+		<category>Doc</category>
+	</item>
+
+	<item>
+		<title>February 2014 Release with Updates to eOffer/eMod</title>
+		<description>GSA has made recent updates to eOffer/eMod. Find out the details of the udpate and how they impact you today.
+		</description>
+		<pubDate>2/27/2014</pubDate>
+		<link>additions/additions-001.html</link>
+		<author></author>
+		<category>Doc</category>
+	</item>
+	
+	<item>
+		<title>Release of the eOffer eMod Online User Guide</title>
+		<description>The new online Version of the User Guide has been 
+					launched. Learn how to get most out of the new system.
+		</description>
+		<pubDate>2/27/2014</pubDate>
+		<link>additions/additions-002.html</link>
+		<author></author>
+		<category>Doc</category>
+	</item>
+
+
+</channel> 

@@ -1,0 +1,191 @@
+@media screen and (max-width: 1200px) 	{
+
+.featAddItem{width:50%;}
+											
+
+}
+
+@media screen and (max-width: 1100px) 	{
+#mainNav {margin-left:5.5%;margin-right:5.5%;}
+#navigationBar{
+	position:relative;
+	height: inherit;
+}
+#mainContent{
+	padding-top:0px;
+}
+a.helpType{
+	height:70px;
+	margin:0px;
+	padding:0px;
+	border:0px;
+	width:50%;
+	float:left;
+	text-align:center;
+	padding-top:0px;
+	line-height:70px;
+	border-top: 1px solid #333;
+	border-left: 0px;
+	border-right:0px;
+}
+#menuSearchField{
+	width:30%;
+	float:right;
+	display:block;
+}
+#menuSearchField::after{
+    content: " "; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+}
+.delayed-clearfix{
+    content: " "; 
+    visibility: hidden; 
+	display:block;
+	height:0;
+	clear: both;
+}
+#navList li {margin-right:0px; margin-left:3.6em}
+	
+#header{padding-top:0px; text-align:center; }
+#sidr {text-align:left;}
+	
+.title{float:none; text-align:center;}
+	
+#mainNav{width:100%; }
+#mainNav ul{position: relative; float:left; display:block;left:44.5%; margin-left:5.5%; margin-right:5.5%;}
+#mainNav ul li{position:relative; float:left; display:block; right:44.5%;}
+	
+#simple-menu{
+		text-align:left;
+	  	width: 100%; 
+ 		height: 20px; 
+ 		position: fixed; 
+  		top: 0px; 
+  		margin:0px;
+ 		padding: 12px 6px 10px 40px;
+   		background-color:#f29b30;
+  		background-image:url(../../images/togglePlus.png);
+  		background-repeat:no-repeat;
+  		background-position:0px -34px;
+		z-index:10000; 	
+	
+		-moz-box-shadow: 0px 0px 6px #000;
+		-webkit-box-shadow: 0px 0px 6px #000;
+		box-shadow: 0px 0px 2px #000;
+/* For IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+/* For IE 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='#333333');
+}
+	
+	
+#banner {text-align:center;}
+#textBlock {text-align:center;  width:100%;}
+#pete, #slideIcon2, #slideIcon3{border-right:none; margin-left: auto; margin-right:auto; display:inline-block; float:none;}
+#bannerButtons {width:100%; text-align:center;}
+
+#bannerButtons ul{position: relative; float:left; display: block; left:50%;margin-top:20px;}
+#bannerButtons ul li{position:relative; float:left; display: block; right:50%;}
+.bannerButton{float:none;}
+
+
+
+}
+
+@media screen and (max-width:900px){
+#menuSearchField{width:15%;}
+}
+@media screen and (max-width: 700px) 	{
+.scroll-to-top {display:none;}
+#bannerButtons ul{left:75%;}
+#advancedSearchField{width:85%;}
+}
+
+
+
+@media screen and (max-width: 690px) 	{
+
+#mainNav ul li{width:100%; right:25%;}
+#header{margin-top:0px; padding-top:0px;}
+#menuBar {height:auto; text-align:center; padding-bottom:10px; position:relative; top:0px;}
+#menuBar ul{float:none;}
+#menuBar li{margin-bottom:0px;}
+#menuBar li:last-child{float:right; margin-right:6%}
+#menuBar input{ display:none;}
+#menuSearchField {display:none;}
+}
+
+
+
+@media screen and (max-width: 480px) {
+#mainNav ul li{right:35%;}
+#bannerButtons ul{left:60%;}
+}
+
+@media screen and (max-width: 478px) 	{
+
+}
+
+@media print{
+	  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* h5bp.com/t */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+
+#header, #footer, #nav, #sidr, #banner, #carousel { display: none !important; } 
+#menuBar {margin:0px; padding:0px; width:100%; height:50px; background-color:#E0E0E0; color:#666;  position: fixed;   top: 0px;  z-index:10000;	
+	
+		-moz-box-shadow: 0px 0px 0px #000;
+		-webkit-box-shadow: 0px 0px 0px #000;
+		box-shadow: 0px 0px 0px #000;
+		/* For IE 8 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=0, Direction=135, Color='#000000')";
+		/* For IE 5.5 - 7 */
+		filter: progid:DXImageTransform.Microsoft.Shadow(Strength=0, Direction=90, Color='#333333');}
+
+#menuBar a{color:#666; text-decoration:none;}
+#menuBar ul{padding:12px 0px 5px 6%; float:left; list-style: none; }
+
+#menuBar li{ margin:0px 60px 0px 0px; padding:0px;float:left; color#666;}
+.offscreen 	{display:block;}
+.helpCenter{color:#999;}
+.chapterSection	{display:none;}
+.topicSection	{display:none;}
+.videoClip		{display:none;}
+
+h1	{color:#333;}
+h2	{color:#999;margin-left:40px;}
+h3	{color:#999;}
+ol	{color:#999;}
+
+.clickTo 	{display:none;}
+
+/*Concept Boxes */
+
+.helpfulHintsBox{ margin-top: 20px;  margin-right:auto; margin-bottom:30px; margin-left:auto;padding-left:100px;  background-image:url(../../images/helpfulHint.png); background-repeat:no-repeat; background-position:0px 0px; min-height:90px; max-width:80%}
+.helpfulHintsBox p{border-top:#999 2px solid; border-bottom:#999 2px dotted; padding:5px 0px 10px 0px;}
+
+.keyConceptBox{ margin-top: 20px;  margin-right:auto; margin-bottom:30px; margin-left:auto;padding-left:100px;  background-image:url(../../images/keyConcept.png); background-repeat:no-repeat; background-position:0px 0px; min-height:90px; max-width:80%}
+.keyConceptBox p{border-top:#999 2px solid; border-bottom:#999 2px dotted; padding:5px 0px 10px 0px;}
+
+.thingsToRememberBox{ margin-top: 20px;  margin-right:auto; margin-bottom:30px; margin-left:auto;padding-left:100px;  background-image:url(../../images/thingsToRemember.png); background-repeat:no-repeat; background-position:0px 0px; min-height:90px; max-width:80%}
+.thingsToRememberBox p{border-top:#999 2px solid; border-bottom:#999 2px dotted; padding:5px 0px 10px 0px;}
+
+.cautionBox{ margin-top: 20px;  margin-right:auto; margin-bottom:30px; margin-left:auto;padding-left:100px;  background-image:url(../../images/caution.png); background-repeat:no-repeat; background-position:0px 0px; min-height:90px; max-width:80%}
+.cautionBox p{border-top:#999 2px solid; border-bottom:#999 2px dotted; padding:5px 0px 10px 0px;}
+
+
+
+
+}

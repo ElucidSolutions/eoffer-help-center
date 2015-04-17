@@ -1,0 +1,48 @@
+#menuBar {margin:0px; padding:0px; width:100%; height:50px; background-color:#E0E0E0; color:#666;  position: fixed; 
+  top: 0px;  z-index:10000;	
+	-moz-box-shadow: 0px 0px 0px #000;
+-webkit-box-shadow: 0px 0px 0px #000;
+box-shadow: 0px 0px 0px #000;
+/* For IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=0, Direction=135, Color='#000000')";
+/* For IE 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=0, Direction=90, Color='#333333');}
+
+
+#menuBar a{color:#666; text-decoration:none;}
+#menuBar ul{padding:12px 0px 5px 6%; float:left; list-style: none; }
+#menuBar li{ margin:0px 60px 0px 0px; padding:0px;float:left; color#666;}
+
+
+.offscreen 	{display:block;}
+
+.helpCenter{color:#999;}
+
+
+.chapterSection	{display:none;}
+.topicSection	{display:none;}
+
+h1	{color:#333;}
+h2	{color:#999;margin-left:40px;}
+h3	{color:#999;}
+ol	{color:#999;}
+
+.clickTo 	{display:none;}
+
+/*Concept Boxes */
+
+.helpfulHintsBox{ margin-top: 20px;  margin-right:auto; margin-bottom:30px; margin-left:auto;padding-left:100px;  background-image:url(../../images/helpfulHint.png); background-repeat:no-repeat; background-position:0px 0px; min-height:90px; max-width:80%}
+.helpfulHintsBox p{border-top:#999 2px solid; border-bottom:#999 2px dotted; padding:5px 0px 10px 0px;}
+
+.keyConceptBox{ margin-top: 20px;  margin-right:auto; margin-bottom:30px; margin-left:auto;padding-left:100px;  background-image:url(../../images/keyConcept.png); background-repeat:no-repeat; background-position:0px 0px; min-height:90px; max-width:80%}
+.keyConceptBox p{border-top:#999 2px solid; border-bottom:#999 2px dotted; padding:5px 0px 10px 0px;}
+
+.thingsToRememberBox{ margin-top: 20px;  margin-right:auto; margin-bottom:30px; margin-left:auto;padding-left:100px;  background-image:url(../../images/thingsToRemember.png); background-repeat:no-repeat; background-position:0px 0px; min-height:90px; max-width:80%}
+.thingsToRememberBox p{border-top:#999 2px solid; border-bottom:#999 2px dotted; padding:5px 0px 10px 0px;}
+
+.cautionBox{ margin-top: 20px;  margin-right:auto; margin-bottom:30px; margin-left:auto;padding-left:100px;  background-image:url(../../images/caution.png); background-repeat:no-repeat; background-position:0px 0px; min-height:90px; max-width:80%}
+.cautionBox p{border-top:#999 2px solid; border-bottom:#999 2px dotted; padding:5px 0px 10px 0px;}
+
+
+
+#footer {display:none;}

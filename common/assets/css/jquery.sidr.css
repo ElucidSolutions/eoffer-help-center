@@ -1,0 +1,114 @@
+/* MP: custom override to prevent default offscreen body when sidr is showing. */	
+body {
+	width: inherit !important;
+}
+div#menuBar input#menuSearchField {
+	right: 10px;
+	position: fixed;
+	margin-right: 0px;	
+}
+/* MP: end custom sidr overrides */
+
+/*  ontarget styles */
+/* Targets only Upper level list items that are 'on target' */ 
+.sidr ul ul li a.ontarget  {/*background-color:#f1e3d8; color:#ec6f1b; border-left:4px solid #ec6f1b; padding-left:10px;*/ }
+
+/* Targets lower level but also overrides upper level list items that are 'on target' */ 
+.sidr ul li ul li a.ontarget {background:#ffc;}
+
+
+/*.sidr ul ul li.last-child a {padding: 9px 15px 9px 37px;}
+/*.sidr ul ul li.last-child:hover a {padding: 9px 15px 9px 33px;}*/
+/* When an active link is being hover */
+/*.sidr ul ul li.last-child:hover a.ontarget{padding: 9px 15px 9px 37px;}*/
+
+
+/*.sidr ul li.has-children ul li.last-child {background-color:blue;}*/
+
+
+
+.sidr{display:none;position:absolute;position:fixed;top:0;height:100%;z-index:999999;width:300px;overflow-x:none;overflow-y:auto;text-align:left;font-family:'Open Sans', sans-serif;;font-size:14px;background:#F9F5F2;color:#333; border-right:1px solid #797979;}
+.sidr .sidr-inner{padding:0px 0px 15px 40px;}
+.sidr .sidr-inner>p{margin-left:15px;margin-right:15px}
+.sidr.right{left:auto;right:-260px}
+.sidr.left{left:-260px;right:auto}
+
+
+.sidr h1,.sidr h2,.sidr h3,.sidr h4,.sidr h5,.sidr h6{
+	border:none;
+	color:#fff;
+	text-align:center;
+	background:#f29b30;
+	margin:0px;
+	padding:0px;
+	font-size:120%;
+	#height:100%;
+	font-weight:200;
+	
+	
+	}
+.sidr .ontarget{background-color:#ffc;}
+.sidr ul li ul li.ontarget{background-color:#ffc;background-image:url(images/arrowRight.png); background-repeat:no-repeat; background-position: 20px 11px;}
+
+.sidr a{position:relative;}
+
+.sidr a:hover{text-decoration:none; color:#ec6f1b; cursor:pointer;}
+
+
+.sidr p{font-size:13px;margin:0 0 12px}
+.sidr p a{color:rgba(51,51,51,0.9)}
+.sidr>p{margin-left:15px;margin-right:15px}
+.sidr ul{display:block;margin: 0px;padding:0;border-top:1px solid #c8c6c6;border-bottom:1px solid #f4f4f4}
+.sidr ul li{display:block;margin:0;border-bottom:1px solid #c8c6c6}
+/* Active and hover class - left border */
+.sidr ul li:hover,.sidr ul li.active,.sidr ul li.sidr-class-active{border-top:none; }
+
+
+/* This targets just the upper level list items that are active/hovered */
+/*.sidr ul li:hover>a,.sidr ul li:hover>span,.sidr ul li.active>a,.sidr ul li.active>span,.sidr ul li.sidr-class-active>a,.sidr ul li.sidr-class-active>span {background-color:#f1e3d8; color:#ec6f1b; border-left:4px solid #ec6f1b; padding-left:10px; }*/
+
+.sidr ul li.last-child a{padding:8px 15px 8px 38px;display:block;text-decoration:none;color:#333; transition: background-color 0.25s ease, color 0.25s ease;}
+.sidr ul li.has-children a,.sidr ul li.has-children span{padding:8px 15px 0px 14px;display:block;text-decoration:none;color:#333; transition: background-color 0.25s ease, color 0.25s ease;}
+.sidr ul li a:hover,.sidr ul li span:hover{color:#f29b30; background-color:#ffc;}
+.sidr ul li ul{border:none;margin:0; display:none;}
+
+
+
+/* This targes all submenu list items */
+
+.sidr ul li ul li{ font-size:13px; background-color:#F9F5F2;background-image:url(images/arrowRight.png); background-repeat:no-repeat; background-position: 35px 11px; }
+.sidr ul li ul li:last-child{border-bottom:none}
+.sidr ul li ul li:hover,.sidr ul li ul li.active,.sidr ul li ul li.sidr-class-active{border-top:none; }
+.sidr ul li ul li ul li {background: #ddd6d6;}
+.sidr ul li ul li ul li:hover>a {background:#ffc; color:#ed1c24;}
+/*.sidr ul li ul li ul li:hover>a {background:#d3cdcd;background-image:url(images/arrowRight.png); background-repeat:no-repeat; background-position: 35px 11px; }*/
+
+/* display active UL submenus */
+.sidr ul li.active ul {display:block;}
+
+/*Second level target*/
+.sidr ul li ul li:hover>a,.sidr ul li ul li:hover>span,.sidr ul li ul li.active>a,.sidr ul li ul li.active>span,.sidr ul li ul li.sidr-class-active>a,.sidr ul li ul li.sidr-class-active>span{background:#ffc; color:#ed1c24; }
+.sidr ul li ul li.last-child a,.sidr ul li ul li.last-child span{color:rgba(51,51,51,0.8); background: #dddddc; background-image: url('../../../common/images/navArrowOne.png'); background-repeat:no-repeat; background-position: 18px 11px; padding:8px 15px 8px 60px; transition: background-color 0.25s ease, color 0.25s ease;}
+.sidr ul li ul li.has-children a,.sidr ul li ul li.has-children span{color:rgba(51,51,51,0.8); background: #dddddc;  background-image: url('../../../common/images/navArrowOne.png'); background-repeat:no-repeat; background-position: 18px 11px; padding:8px 15px 0px 36px; transition: background-color 0.25s ease, color 0.25s ease;}
+
+/* Second level hover / ontarget styles */
+.sidr ul li ul li.last-child a:hover,.sidr ul li ul li.last-child span:hover,.sidr ul li ul li.last-child a.ontarget{background:#fed6b0; color:#e2760a;  background-image: url('../../../common/images/navArrowOne.png'); background-repeat:no-repeat; background-position: 18px 11px;}
+.sidr ul li ul li.has-children a:hover,.sidr ul li ul li.has-children span:hover,.sidr ul li ul li.has-children a.ontarget{background:#fed6b0; color:#e2760a;  background-image: url('../../../common/images/navArrowOne.png'); background-repeat:no-repeat; background-position: 18px 11px;}
+
+
+
+/*Third Level Target */
+.sidr ul li ul li.has-children ul li.last-child a,.sidr ul li ul li.has-children ul li.last-child span{color:rgba(51,51,51,0.8); background:#b2b2b2;  background-image: url('../../../common/images/navArrowTwo.png'); background-repeat:no-repeat; background-position: 38px 13px; padding:8px 15px 6px 60px; transition: background-color 0.25s ease, color 0.25s ease;}
+
+/* Third level hover / ontarget styles */
+.sidr ul li ul li.has-children ul li.last-child a:hover,.sidr ul li ul li.has-children ul li.last-child span:hover,.sidr ul li ul li.has-children ul li.last-child a.ontarget{background:#f7ba77; color:#b75513;  background-image: url('../../../common/images/navArrowTwo.png'); background-repeat:no-repeat; background-position: 38px 13px; padding:8px 15px 6pxpx 60px; background-color 0.25s ease, color 0.25s ease;}
+
+
+
+
+.sidr form{margin:0 15px}
+.sidr label{font-size:13px}
+.sidr input[type="text"],.sidr input[type="password"],.sidr input[type="date"],.sidr input[type="datetime"],.sidr input[type="email"],.sidr input[type="number"],.sidr input[type="search"],.sidr input[type="tel"],.sidr input[type="time"],.sidr input[type="url"],.sidr textarea,.sidr select{width:100%;font-size:13px;padding:1.4 em .4em;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0 0 10px;-webkit-border-radius:2px;-moz-border-radius:2px;-ms-border-radius:2px;-o-border-radius:2px;border-radius:2px;border:none;background:rgba(0,0,0,0.1);color:rgba(51,51,51,0.6);display:block;clear:both}
+.sidr input[type=checkbox]{width:auto;display:inline;clear:none}
+.sidr input[type=button],.sidr input[type=submit]{color:#f8f8f8;background:#333}
+.sidr input[type=button]:hover,.sidr input[type=submit]:hover{background:rgba(51,51,51,0.9)}

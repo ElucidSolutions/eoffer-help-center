@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+<table class="glossary target">
+  <thead>
+    <tr class="term-eoffer term-fss term-ors term-sws">
+      <th>Term</th>
+      <th> Definition </th>
+    </tr>
+  </thead>
+  <tr class="term-fss">
+    <td><p class="term">&#36; Value Total</p></td>
+    <td><p>Sums the quanitity requested by the cost price per unit.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">&#37; Variance Minus</p></td>
+    <td><p>Provides a percentage that describes what deviation that is less than the number ordered will be considered acceptable by both parties, if any such deviation is allowed.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">&#37; Variance Plus</p></td>
+    <td><p>Provides a percentage that describes what deviation that is more than the number ordered will be considered acceptable by both parties, if any such deviation is allowed.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">2 Position Code</p></td>
+    <td><p>Country Codes are unique alphabetic Codes used to identify every country within the FSS Online system.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">3 Position Code</p></td>
+    <td><p>Country Codes are unique alphabetic Codes used to identify every country within the FSS Online system.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">A-76 (FAIR Act) Action</p></td>
+    <td><p>Select Fair Opportunity Act when needed.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Acceptance Days</p></td>
+    <td><p>Identifies the number of days ther ordering entity has to accept the shipment.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">ACO</p></td>
+    <td><p>Identifies the Administrative Contracting Office associated with the Contract.</p></td>
+  </tr>
+  <tr class="term-eoffer">
+    <td><p class="term">ACO</p></td>
+    <td><p>GSA Administrative Contracting Officer</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">ACO (R)etain/Zone dropdown</p></td>
+    <td><p>Code used to identify the Administrative Contracting Office responsible for the Purchase Order.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">ACO dropdown</p></td>
+    <td><p>Identifies the Administrative Contracting Office responsible for the Contract.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Acquisition Advice Code</p></td>
+    <td><p>In simple terms, this Code idenitifies the availability of stock and the method of acquisition, (requisition, fabrication, assembly, or local purchase).</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Adjust &#36; Value</p></td>
+    <td><p>Allows you to increase or descrease the project value.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Admin Contract Office</p></td>
+    <td><p>The Office responsible for the administration of the Contract.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Agency Service Code</p></td>
+    <td><p>Agency Code from the Customer Address File (CAF).</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Agency/CD Name dropdown</p></td>
+    <td><p>Identifies the Agency that the Project targets.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Allocation Numbers</p></td>
+    <td><p>Used to control the allocation of Stock Contracts in the Order Writing process.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Alt Buyer Code</p></td>
+    <td><p>Buyer Codes are unique two-character, alphanumeric identifiers associated with each individual in GSA who has buying authority. Typically, Buyer Codes take the form of the individual’s first and last name initials.  Here, you may enter an alternate buyer code if necessary.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">American Recovery and Reinvestment Act (ARRA)</p></td>
+    <td><p>Indicates whether or not ARRA is applicable to the Contract and the associated Mod.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">ARN/ARO</p></td>
+    <td><p>This specifies the number of days after receipt of Order which which the Inspection must take place.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">ARRA TAS Number</p></td>
+    <td><p>Identifies the applicable American Recovery and Reinvestment Act Treasury Account Symbol.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Assigned To</p></td>
+    <td><p>The Buyer amd Supervisor to whom the Mod will be Assigned.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Attach Documents button</p></td>
+    <td><p>Used to attach supporting documentation to the Modification.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Award Date</p></td>
+    <td><p>The date on which the Contract was Awarded.</p></td>
+  </tr>
+  <tr class="term-ors">
+    <td><p class="term">Award Date</p></td>
+    <td><p>The date on which the Contract was Awarded.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Award Location</p></td>
+    <td><p>Location where the Contract has been Awarded. The location is based on the FIPS table.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">AWD/PPP Loc</p></td>
+    <td><p>Provide the FIPS Code of the Awarded, Principal Place of Performance.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Begin Date dropdown</p></td>
+    <td><p>The date on which the Contract becomes Effective.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Begin Funding Fiscal Year</p></td>
+    <td><p>Identifies the first year the Project is expected to receive Funding.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Business Name</p></td>
+    <td><p>Identifies the Contractor's legal business name, or if it is doing business under another name.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Buyer CD/Name dropdown</p></td>
+    <td><p>Select the appropriate Buyer Code. Buyer Codes are unique two-character, alphanumeric identifiers associated with each individual in GSA who has buying authority. Typically, Buyer Codes take the form of the individual’s first and last name initials.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Buyer Code</p></td>
+    <td><p>Buyer Codes are unique two-character, alphanumeric identifiers associated with each individual in GSA who has buying authority. Typically, Buyer Codes take the form of the individual’s first and last name initials.</p></td>
+  </tr>
+  <tr class="term-ors">
+    <td><p class="term">Buyer Code</p></td>
+    <td><p>Buyer Codes are unique two-character, alphanumeric identifiers associated with each individual in GSA who has buying authority. Typically, Buyer Codes take the form of the individual’s first and last name initials.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Buyer Code Name dropdown</p></td>
+    <td><p>Select the appropriate Buyer Code. Buyer Codes are unique two-character, alphanumeric identifiers associated with each individual in GSA who has buying authority. Typically, Buyer Codes take the form of the individual’s first and last name initials.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Buyer Code/Name</p></td>
+    <td><p>Select the appropriate Buyer Code. Buyer Codes are unique two-character, alphanumeric identifiers associated with each individual in GSA who has buying authority. Typically, Buyer Codes take the form of the individual’s first and last name initials.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Buyer dropdown</p></td>
+    <td><p>Select the appropriate Buyer Code. Buyer Codes are unique two-character, alphanumeric identifiers associated with each individual in GSA who has buying authority. Typically, Buyer Codes take the form of the individual’s first and last name initials.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Buying Program</p></td>
+    <td><p>Where applicable, will identify the type of Stock or SOP Program against which the Contract is being made.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">ByrCD</p></td>
+    <td><p>Buyer Codes are unique two-character, alphanumeric identifiers associated with each individual in GSA who has buying authority. Typically, Buyer Codes take the form of the individual’s first and last name initials.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Center</p></td>
+    <td><p>Identifies the Reporting/Acquisition Center responsible for Requisition processing.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Central Intake Desk (CID) Notes</p></td>
+    <td><p>Any notes regarding what this Modification is about.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Central Intake Desk (CID) Notes box</p></td>
+    <td><p>Provides the notes from the CID associated with the Modification.</p></td>
+  </tr>
+  <tr class="term-eoffer">
+    <td><p class="term">Central Intake Desks (CIDs)</p></td>
+    <td><p>FAS established a transformational process for MAS Contract Administration: the establishment of Central Intake Desks (CID). A CID is located at each MAS Acquisition Center for the receipt of all incoming Paper and Email Modification Requests.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Certificate of Competency</p></td>
+    <td><p>Certificates of Competency (CoC) are used when a small business may be Awarded a Contract, but has also received unfavorable past performance ratings, or did not pass its Repsonsibility Determination. CoCs are obtained from the SBA and serve to vouch for the responsibility of that small business to be Awarded a Contract.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">CHP Operation</p></td>
+    <td><p>Idenitifies whether the Contract is related to Contingency, Humanitarian, or Peacekeeping Operations.</p></td>
+  </tr>
+  <tr class="term-eoffer">
+    <td><p class="term">Clause Exception</p></td>
+    <td><p>Vendor submitting contract proposals under the General Services Administration's Multiple Award Schedules (MAS) Program may specify Exception to a Solicitation Clause. The PCO may Approve, Reject or Request Clarification for a particular Clause Exception.</p></td>
+  </tr>
+  <tr class="term-ors">
+    <td><p class="term">Clause Exception</p></td>
+    <td><p>Vendor submitting contract proposals under the General Services Administration's Multiple Award Schedules (MAS) Program may specify Exception to a Solicitation Clause. The PCO may Approve, Reject or Request Clarification for a particular Clause Exception.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Clinger-Cohen Act</p></td>
+    <td><p>The Clinger-Cohen Act (CCA) directed the development and maintenance of Information Technology Architectures (ITAs) by federal agencies to maximize the benefits of informantion technology within the government.</p></td>
+  </tr>
+  <tr class="term-ors">
+    <td><p class="term">Clinger-Cohen Act</p></td>
+    <td><p>The Clinger-Cohen Act (CCA) directed the development and maintenance of Information Technology Architectures (ITAs) by federal agencies to maximize the benefits of informantion technology within the government.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">CO Determination Bus Size</p></td>
+    <td><p>Indicates whether the successful Offeror is currently a small business.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Comm. Item Acq</p></td>
+    <td><p>Indicates whether a commercially available Item that is being Procured.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Cont Ind dropdown</p></td>
+    <td><p>Select a Contract Indicator to tailor your search results.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Contract Indicator</p></td>
+    <td><p>Identify the type of contract that you are entering. Note that MAS Contracts should be loaded from ORS, not entered directly into FSS Online.</p></td>
+  </tr>
+  <tr class="term-eoffer">
+    <td><p class="term">Contract Load</p></td>
+    <td><p>Several windows/screens in the Client Server Application, FSS Online within the PR module used to load and display Contract information including Vendor Clause Exceptions.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Contract Number</p></td>
+    <td><p>Depending on your selected Contract Indicator, this field will change; it will populate based on your selections in the Solicitation Number field.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Contract Type dropdown</p></td>
+    <td><p>Identifies whether Report results, or search results will display Schedule or Non-Schedule Contract types.</p></td>
+  </tr>
+  <tr class="term-eoffer">
+    <td><p class="term">Contracting Professionals</p></td>
+    <td><p>Refers to both Contracting Officers and Contracting Specialists access and review electronic offers (e-Offers) and Modifications (e-Mods) submitted by Vendors via the FSS-19 system.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Contractor (C)</p></td>
+    <td><p>Identifies the Contractor's DUNS number. Must be registered in SAM (formerly CCR) and have an active account.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Correction button</p></td>
+    <td><p>Allows some users to make minor edits to a Contract.</p></td>
+  </tr>
+  <tr class="term-eoffer">
+    <td><p class="term">CORS</p></td>
+    <td><p>Contract Officer Review System</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Cost Price</p></td>
+    <td><p>Identifies the per-Unit Cost of each Item.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Country Code Name</p></td>
+    <td><p>Usually the full text name of a particular country.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Country of Origin</p></td>
+    <td><p>Provides the two-character Country Code of where the Company hails from.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Dangerous Article Code</p></td>
+    <td><p>Dangerous Article Codes are taken from the federal government's Hazadous Material Table and used to identify goods that pose various risks to consumers, (e.g. toxicity, corrosivesness, etc.).</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Date Initiated</p></td>
+    <td><p>Will be displayed if GSA Initiated the Mod - please enter the date that GSA Initiated the Modification.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Date Received</p></td>
+    <td><p>Will be displayed if the Contractor requested the Mod - please enter the date you received the Modification Request.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Defense Order Rating dropdown</p></td>
+    <td><p>Allows some users to make minor edits to a Contract.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Delivery Date dropdown</p></td>
+    <td><p>Select the date that the Products/Services under the PO will be delivered.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Description of the Mod (SF-30 Form - Block 14)</p></td>
+    <td><p>The information entered in this textbox will be displayed on the Contractor's SF-30 in Block 14; it is intended to provide a brief description of the Contract Modification.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Discount Terms: Discount 1</p></td>
+    <td><p>Identifies the percentage discount if the invoice is paid within a specified number of days.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Discount Terms: Discount 2</p></td>
+    <td><p>Identifies the percentage discount if the invoice is paid within a specified number of days. Note that this field must have a lower percentage and higher number of days than the Discount 1 field.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Discount Terms: Net</p></td>
+    <td><p>Identifies the number of days in which the Order invoice must be paid.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Doing Business As</p></td>
+    <td><p>Should be completed if the Contractor uses a name other than its legal business name in its dealings.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Dollar Limit</p></td>
+    <td><p>Identifies the highest Contract dollar amount the user can sign off on.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Domestic or Foreign Entity</p></td>
+    <td><p>Indicates whether the successful Offeror is a domestically owned or foreign owned entity.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">DUN Number</p></td>
+    <td><p>The Data Universal Numbering System, (abbreviated as DUNS&#174; or D-U-N-S&#174;), is a system developed and regulated by Dun &amp; Bradstreet (D&amp;B) that assigns a unique numeric identifier, referred to as a "DUNS number," to a single business entity.</p></td>
+  </tr>
+  <tr class="term-ors">
+    <td><p class="term">DUN Number</p></td>
+    <td><p>The Data Universal Numbering System, (abbreviated as DUNS&#174; or D-U-N-S&#174;), is a system developed and regulated by Dun &amp; Bradstreet (D&amp;B) that assigns a unique numeric identifier, referred to as a "DUNS number," to a single business entity.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">DUNM</p></td>
+    <td><p>Not required, but provides the DUNS number associated with the company's location where Orders/Requisitions will be sent, if different than the company's main address.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Correction button</p></td>
+    <td><p>Allows some users to make minor edits to a Contract.</p></td>
+  </tr>
+  <tr class="term-eoffer">
+    <td><p class="term">ECF</p></td>
+    <td><p>Electronic Contract File</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">ECF</p></td>
+    <td><p>Electronic Contract File.</p></td>
+  </tr>
+  <tr class="term-eoffer">
+    <td><p class="term">eCMS</p></td>
+    <td><p>Electronic Contract Management System: This system enables paperless process for Solicitations, Vendor Submission of Proposals, Bid Evaluation, Award Determination, Contract writing, Contract Management processes, as well as establishing and enforcing standard Acquisition practices and policies department-wide.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">eCMS</p></td>
+    <td><p>Electronic Contract Management System: This system enables paperless process for Solicitations, Vendor Submission of Proposals, Bid Evaluation, Award Determination, Contract writing, Contract Management processes, as well as establishing and enforcing standard Acquisition practices and policies department-wide.</p></td>
+  </tr>
+  <tr class="term-sws">
+    <td><p class="term">eCMS</p></td>
+    <td><p>Electronic Contract Management System: This system enables paperless process for Solicitations, Vendor Submission of Proposals, Bid Evaluation, Award Determination, Contract writing, Contract Management processes, as well as establishing and enforcing standard Acquisition practices and policies department-wide.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">ED Ind</p></td>
+    <td><p>Export/Domestic Indicator (display only).</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Effective Date</p></td>
+    <td><p>This is the date the Modification will become Active against the Contract.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">End Date</p></td>
+    <td><p>The date the Contract is scheduled to end.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">End Funding Fiscal Year</p></td>
+    <td><p>Identifies the last year the Project is expected to receive Funding.</p></td>
+  </tr>
+  <tr class="term-eoffer">
+    <td><p class="term">eOffer/eMod</p></td>
+    <td><p>eOffer/eMod web-based applications that allow companies to electronically prepare and submit Contract Proposals and Contract Modifications under the General Services Administration's Multiple Award Schedules (MAS) Program. The General Services Administration launched eOffer and eMod as the paperless means to streamline the Contract Award and Modification processes in May and July of 2004, respectively.</p></td>
+  </tr>
+  <tr class="term-ors">
+    <td><p class="term">eOffer/eMod</p></td>
+    <td><p>eOffer/eMod web-based applications that allow companies to electronically prepare and submit Contract Proposals and Contract Modifications under the General Services Administration's Multiple Award Schedules (MAS) Program. The General Services Administration launched eOffer and eMod as the paperless means to streamline the Contract Award and Modification processes in May and July of 2004, respectively.</p></td>
+  </tr>
+  <tr class="term-sws">
+    <td><p class="term">eOffer/eMod</p></td>
+    <td><p>eOffer/eMod web-based applications that allow companies to electronically prepare and submit Contract Proposals and Contract Modifications under the General Services Administration's Multiple Award Schedules (MAS) Program. The General Services Administration launched eOffer and eMod as the paperless means to streamline the Contract Award and Modification processes in May and July of 2004, respectively.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">EPA Designated Products</p></td>
+    <td><p>Identifies whether the Procurement involves any Products that the EPA has flagged.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Estimate Freight Charge</p></td>
+    <td><p>Provides an estimate of the extent to which Shipping Costs will be required of the Requisition.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">EstPrc</p></td>
+    <td><p>Identifies the estimated price for this NSN.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Extent Completed</p></td>
+    <td><p>This is a Solicitation value and cannot be changed after the Contract is loaded.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Fair Opp/Limited Sources dropdown</p></td>
+    <td><p>If Full and Open Competition was not used, this field identifies the justification for not providing such competition, (e.g., limited sources, urgent requirement, etc.).</p></td>
+  </tr>
+  <tr class="term-eoffer">
+    <td><p class="term">FAS CIO</p></td>
+    <td><p>GSA Federal Acquisition Service - Chief Information Officer.</p></td>
+  </tr>
+  <tr class="term-eoffer">
+    <td><p class="term">FBO</p></td>
+    <td><p>Federal Business Opportunities (FedBizOpps) - Is a GSA operated website that contains all federal solicitation information.</p></td>
+  </tr>
+  <tr class="term-sws">
+    <td><p class="term">FBO</p></td>
+    <td><p>Federal Business Opportunities (FedBizOpps) - Is a GSA operated website that contains all federal solicitation information.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Fee for Use</p></td>
+    <td><p>Identifies the type of fee and percentage associated with an agency's use of this Contract.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Flat Charge</p></td>
+    <td><p>Enter information if there is a Flat Fee associated with making this Purchase.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Correction button</p></td>
+    <td><p>Allows some users to make minor edits to a Contract.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">FOB</p></td>
+    <td><p>FOB specifies which party (Buyer or Seller) pays for which Shipment and Loading Costs, and/or where responsibility for the goods is transferred.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">FOB Code dropdown</p></td>
+    <td><p>FOB specifies which part (Buyer or Seller) pays for which Shipment and Loading Costs, and/or where responsibility for the goods is transferred.</p></td>
+  </tr>
+  <tr class="term-eoffer">
+    <td><p class="term">FPDS-NG</p></td>
+    <td><p>Federal Procurement Data System - Next Generation (FPDS-NG): This system stores Contract and Order information. FAS automatically transmits all legacy FSS records regardless of value. Every Modification to that Contract and/or Order must be report to the FPDS-NG system. FPDS-NG's data are used to create recurring and special Reports to the President, Congress, Government Accountability Office, federal executive agencies, and the general public. It is extremely important that data contained in FPDS-NG is accurate, complete, and submitted in a timely manner.</p></td>
+  </tr>
+  <tr class="term-ors">
+    <td><p class="term">FPDS-NG</p></td>
+    <td><p>Federal Procurement Data System - Next Generation (FPDS-NG): This system stores Contract and Order information. FAS automatically transmits all legacy FSS records regardless of value. Every Modification to that Contract and/or Order must be report to the FPDS-NG system. FPDS-NG's data are used to create recurring and special Reports to the President, Congress, Government Accountability Office, federal executive agencies, and the general public. It is extremely important that data contained in FPDS-NG is accurate, complete, and submitted in a timely manner.</p></td>
+  </tr>
+  <tr class="term-eoffer">
+    <td><p class="term">FPL</p></td>
+    <td><p>Formatted Price List: Piloted by Financial And Business Solutions (FABS) schedule 520, part of an initiative by GSA to streamline the Electronic Price List process, and to create a database in which Customer Agencies can search for their desired services and compare pricing.</p></td>
+  </tr>
+  <tr class="term-eoffer">
+    <td><p class="term">FSSI</p></td>
+    <td><p>Federal Strategic Sourcing Initiative: The result of a partnership between GSA and the US Department of Treasury, responding to an Office of Management and Budget and Office of Federal Procurement Policy Request requiring all Agencies to identify Commodities to be Purchased more efficiently through strategic sourcing.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Funding Agency</p></td>
+    <td><p>Will likely be auto-populated based on prior entries - Indicates the Agency that is providing the Funding for the Initiative.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Funding Office</p></td>
+    <td><p>Will likely be auto-populated based on prior entries - Indicates the Office that is providing Funding for the Initiative.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">FY</p></td>
+    <td><p>Enter the Fiscal Year assocated with the Contract.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Gen Sup Fund Cd dropdown</p></td>
+    <td><p>Provides details associated with the Requisition's use of the General Supply Fund.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">GFE or GFP Provided</p></td>
+    <td><p>Indicates whether government furnished property or equipment has been or will be provided to the Contractor in order to execute the Contract.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Correction button</p></td>
+    <td><p>Allows some users to make minor edits to a Contract.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">GSF Code</p></td>
+    <td><p>Provides details associated with the Requisition's use of the General Supply Fund.</p></td>
+  </tr>
+  <tr class="term-eoffer">
+    <td><p class="term">IL 2011-09</p></td>
+    <td><p>Instructional Letter 2011-09 was memo released by the GSA Office of Acquisition Management outlining new instructions for the implementation of the Requirement for Subcontracting Plans.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">IMC Code</p></td>
+    <td><p>Inventory Management Center.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Inspection Code</p></td>
+    <td><p>Indicates where the Product being shipped will be inspected.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Inspection Type</p></td>
+    <td><p>Identifies the type of inspection that will be performed upon delivery of the Product.</p></td>
+  </tr>
+  <tr class="term-eoffer">
+    <td><p class="term">IOA</p></td>
+    <td><p>Industrial Operations Analyst.</p></td>
+  </tr>
+  <tr class="term-eoffer">
+    <td><p class="term">ISO 3166</p></td>
+    <td><p>International Organization of Standardization (ISO) ISO 3166 is the international standard for country codes and codes for their subdivisions.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Justification</p></td>
+    <td><p>Freeform textbox used to display justification information for the action.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Lines on Time</p></td>
+    <td><p>Purchase Order completion, On Time or Late.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Major Program</p></td>
+    <td><p>The Agency-determined Code for a Major Program within that Agency. For an Indefinite Delivery Vehicle, this may be the name of a Government Wide Acquisition Vehicle (GWAC), (e.g., ITOPS or COMMITS).</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Manager Code</p></td>
+    <td><p>The Manager Code is a unique two-character, alphanumeric identifier associated with the Manager of the Buyer who is definied in the associated Buyer field.</p></td>
+  </tr>
+  <tr class="term-eoffer">
+    <td><p class="term">MAS</p></td>
+    <td><p>Refers to Multiple Award Schedule (MAS) Program.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Max Order &#36; Value</p></td>
+    <td><p>Identifies the maximum Order allowed under the Contract.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Max &#36; per Line</p></td>
+    <td><p>Identifies the maximum dollar amount that can be applied to any line of the Purchase Order.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Maximum Order</p></td>
+    <td><p>Identifies the largest Order (in dollars) that may be placed against the Contract.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Method of Purchase</p></td>
+    <td><p>Two-character Code that specifies the Program or Office with which the Purchase is associated. MOP Codes define the policies of the Program or Office to which the Purchase is subject.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Min Order &#36; Value</p></td>
+    <td><p>Identifies the minimum Order allowed under the Contract.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Minimum Order</p></td>
+    <td><p>Identifies the smallest Order (in dollars) that may be placed against the Contract.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Mod dropdown</p></td>
+    <td><p>The only option will likely be "New," indicating that you're creating a new Contract Modification. You may see a sequential list of prior Contract Modifications depending on your access.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Mod Group</p></td>
+    <td><p>Mods from Procurement use the following groups: PO, PA, PN. ACO Mods use the group AA, AO, and AN.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Mod Group dropdown</p></td>
+    <td><p>Status of the MAS Contract Mods.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Mod Number</p></td>
+    <td><p>Provides the Modification number associated with the Contract. These numbers are applied sequentially, in the order that Mods are initiated.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Mod Number dropdown</p></td>
+    <td><p>Provides a sequential list of the Mods associated with the active Contract.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">MOP Code</p></td>
+    <td><p>Indicates the Method of Purchase Code. Note that the specific Codes are available in the Code Caddy.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">MOP Description Start With</p></td>
+    <td><p>Used to enter a string of characters that correspond to the initial characters of the MOP Description.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">MSDS Code</p></td>
+    <td><p>Refers to the Material Safety Data Sheets Codes that identify the potentially hazardous materials that will be called for under the Contract.</p></td>
+  </tr>
+  <tr class="term-eoffer">
+    <td><p class="term">NAICS Code</p></td>
+    <td><p>North American Industry Classification System (NAICS) Codes are used by the government to classify business establishments according to type of economic activity.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">NAICS Code</p></td>
+    <td><p>North American Industry Classification System (NAICS) Codes are used by the government to classify business establishments according to type of economic activity.</p></td>
+  </tr>
+  <tr class="term-ors">
+    <td><p class="term">NAICS Code</p></td>
+    <td><p>North American Industry Classification System (NAICS) Codes are used by the government to classify business establishments according to type of economic activity.</p></td>
+  </tr>
+  <tr class="term-sws">
+    <td><p class="term">NAICS Code</p></td>
+    <td><p>North American Industry Classification System (NAICS) Codes are used by the government to classify business establishments according to type of economic activity.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">New Est. Award Code</p></td>
+    <td><p>If a Mod has caused the Estimated Award Value to change, the new Value is entered here.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Note Code</p></td>
+    <td><p>Enter the predefined Notes that will be included in the Purchase Orders.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Note Code dropdown</p></td>
+    <td><p>Codes used in the Order Writing Process to display Contract level Notes on the Purchase Order.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">NSN Summary button</p></td>
+    <td><p>Provides summary information of a particular NSN across fiscal years.</p></td>
+  </tr>
+  <tr class="term-eoffer">
+    <td><p class="term">Offer Registration System (ORS)</p></td>
+    <td><p>ORS is a web-based application that is used for Offer Registration, Tracking, and Awarding Contracts from GSA Schedules. It is the initial entry point where Contracts begin their lifecycle through the FSS-19 system. ORS is used by all Federal Acquisition Service (FAS) Centers as the standard Procurement system.</p></td>
+  </tr>
+  <tr class="term-ors">
+    <td><p class="term">Offer Registration System (ORS)</p></td>
+    <td><p>ORS is a web-based application that is used for Offer Registration, Tracking, and Awarding Contracts from GSA Schedules. It is the initial entry point where Contracts begin their lifecycle through the FSS-19 system. ORS is used by all Federal Acquisition Service (FAS) Centers as the standard Procurement system.</p></td>
+  </tr>
+  <tr class="term-sws">
+    <td><p class="term">Offer Registration System (ORS)</p></td>
+    <td><p>ORS is a web-based application that is used for Offer Registration, Tracking, and Awarding Contracts from GSA Schedules. It is the initial entry point where Contracts begin their lifecycle through the FSS-19 system. ORS is used by all Federal Acquisition Service (FAS) Centers as the standard Procurement system.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Offer Type dropdown</p></td>
+    <td><p>Identifies whether the Report will display Paper or Electronic Offers.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Offers Received</p></td>
+    <td><p>Identifies the number of Proposals received from Vendors regarding the Solicitation.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Office Symbol</p></td>
+    <td><p>Indicates the Office to which an employee is Assigned, or the Office responsible for Administering a Contract. Office symbols are three to four-letter abbreviations used to specify various Offices throughout GSA.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">On Time/Late</p></td>
+    <td><p>The Prodiction Plan will specify the date the Contract should be Awarded. Note here if it was Awarded On Time or Late according to the specifications provided in the Production Plan.</p></td>
+  </tr>
+  <tr class="term-eoffer">
+    <td><p class="term">Online Content Management System (OCMS)</p></td>
+    <td><p>A web accessible Contract Management system used by FAS's Supplier Management Division. The system is used by Industrial Operations Analysts (IOAs) and Administrative Contracting Officers (ACOs) to document Contractor Assistance Visits (CAVs) and to prepare Contractor Report Cards.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Ordering Address (DUNS)Supplier Address</p></td>
+    <td><p>This is the DUNS, DUNS Supplier Number and/or address.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Origin of Mod</p></td>
+    <td><p>Indicates whether the Contractor Requested this Mod or GSA has Initiated it.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Other than F&amp;O Company</p></td>
+    <td><p>Full and Open Competition allows all Vendors to participate in a Procurement, and is the standard Procurement type used to compete a Contract. Here, identify if another means beside Full &amp; Open Competition is being used, and the Authority that allows such a restriction on competition. This is a Solicitation value and cannot be changed after the Contract is Loaded.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Pac Facility Cd</p></td>
+    <td><p>Packing Facility Codes are used to determine packaging location.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Payment Address (remit-to)</p></td>
+    <td><p>Indicates the address where payment for services rendered should be sent. Note that this is where you identify if such an address has changed or remains unchanged.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">PBSC</p></td>
+    <td><p>Indicates whether this is subject to Performance Based Service Contract requirements.</p></td>
+  </tr>
+  <tr class="term-eoffer">
+    <td><p class="term">PCO</p></td>
+    <td><p>Procurement Contracting Officer (PCO) - is the only person who can bind the United States government to a Contract with a Vendor, limited to the extent of the authority delegated by the head of the Agency.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">PCO Remarks/Approval/Reason for Withdraw-Reject</p></td>
+    <td><p>The area in which the Contracting Officer will provide his or her rationale for Approving or Rejecting the Modification Request.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Perf Based Svc Cont</p></td>
+    <td><p>Performance Based Services Contracts are used when payment to the Contractor is tied to specific performance measurements.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Perf. Oriented Pack. Cd</p></td>
+    <td><p>The Performance Oriented Packaging Code to be used in the Order.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Performance Place</p></td>
+    <td><p>Identifies the Primary Performance Place where work will be performed, and sometimes whether or not it has changed as a result of a Modification.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Period of Expiration: From</p></td>
+    <td><p>The day on which you would like the Report to begin.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Period of Expiration: To</p></td>
+    <td><p>The day on which you would like the Report to end.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Phrase Code</p></td>
+    <td><p>NSN level Phrase Code.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">PO</p></td>
+    <td><p>The Purchase Order number.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">PO Cost</p></td>
+    <td><p>Will sum all of the costs associated with the Purchase.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">PO Date dropdown</p></td>
+    <td><p>Select the date on which the Purchase Order is being processed.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">PO Dollar Value</p></td>
+    <td><p>Enter the total dollar amount associated with the Purchase Order.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">PO Mailing (M)</p></td>
+    <td><p>Identifies the mailing address, which may be applicable if different than the DUNS (C).</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">PPP</p></td>
+    <td><p>Identifies the Principle Place of Performance associated with the Requisition.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">PPP</p></td>
+    <td><p>Identifies the ZIP Code of the Principle Place of Performance.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">PR Foreign Country</p></td>
+    <td><p>Identifies whether the Procurement took place in a foreign country or the United States.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">PR Lead Time</p></td>
+    <td><p>This is the number of days that the Procurement officials have had up to this point to review Offers and make a Contract Award.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Price Reduction</p></td>
+    <td><p>Used if the Modification results in a reduction in the Offeror's Contract prices.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Prime Error</p></td>
+    <td><p>The Prime Error is used to search for and identify all of the Requisitions that have not been processed for a particular reason.</p></td>
+  </tr>
+  <tr class="term-sws">
+    <td><p class="term">Product Service Code</p></td>
+    <td><p>Product Service Codes (PSCs) consist of four alphanumeric characters that identify high-level categories under which a Vendor's Products or Services may fall.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Product/Serv Code</p></td>
+    <td><p>Product Service Codes (PSCs) consist of four alphanumeric characters that identify high-level categories under which a Vendor's Products or Services may fall.</p></td>
+  </tr>
+  <tr class="term-ors">
+    <td><p class="term">Product-Service Code</p></td>
+    <td><p>Product Service Codes (PSCs) consist of four alphanumeric characters that identify high-level categories under which a Vendor's Products or Services may fall.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Prime Error</p></td>
+    <td><p>The Prime Error is used to search for and identify all of the Requisitions that have not been processed for a particular reason.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Program Acronym</p></td>
+    <td><p>The shorthand title used for a GWAC or other Contracting Program. Examples include COMMITS, ITOPS, and SEWP.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Project &#36; Value</p></td>
+    <td><p>The total dollar amount associated with the Project.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Project Code-PR</p></td>
+    <td><p>Procurement Project Code designation.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Project Name</p></td>
+    <td><p>Freeform textbox used to create a name for the Project being created.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Proper Ship Name Code</p></td>
+    <td><p>NSN level Proper Item Name.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">PSC Cd</p></td>
+    <td><p>Product Service Codes (PSCs) consist of four alphanumeric characters that identify high-level categories under which a Vendor's Products or Services may fall. This field identifies the Product Service Code associated with the Requisition.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">PSC Code</p></td>
+    <td><p>Product Service Codes (PSCs) cosist of four alphanumeric characters that identify high-level categories under which a Vendor's Products or Services may fall.</p></td>
+  </tr>
+  <tr class="term-ors">
+    <td><p class="term">PSC Code</p></td>
+    <td><p>Product Service Codes (PSCs) cosist of four alphanumeric characters that identify high-level categories under which a Vendor's Products or Services may fall.</p></td>
+  </tr>
+  <tr class="term-sws">
+    <td><p class="term">PSC Code</p></td>
+    <td><p>Product Service Codes (PSCs) cosist of four alphanumeric characters that identify high-level categories under which a Vendor's Products or Services may fall.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">PSC Code Start With</p></td>
+    <td><p>Product Service Codes (PSCs) consist of four alphanumeric character that identify high-level categories under which a Vendor's Products or Services may fall.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Qty Maximum Limit</p></td>
+    <td><p>Identifies the maximum quantity associated with ordering under the Contract.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Qty Minimum Limit</p></td>
+    <td><p>Identifies the minimum quantity associated with ordering under the Contract.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Qty.</p></td>
+    <td><p>Identifies the quantity of goods being Requested.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Rcvrd Mat/Sustnblty</p></td>
+    <td><p>Select a Recovering Material Clause when needed.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Reason</p></td>
+    <td><p>Depending on the selection made in Type, you will be provided different reasons to explain performing this Modification.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Received Date</p></td>
+    <td><p>The date on which the Mod was Recieved.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Remarks</p></td>
+    <td><p>Freeform textbox that allows entry of miscellaneous information pertaining to the Requisition.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Report Office</p></td>
+    <td><p>The Report Office is a single letter designation used to identify the new user's primary location.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Report Office dropdown</p></td>
+    <td><p>The Report Office is a single letter designation used to identify the new user's primary location. Here, it may be auto-populated based on the Report Office you are signed in to.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Report Type dropdown</p></td>
+    <td><p>Indicates whether you want to view a Report identifying Debarred or Suspended Contractors. Debarred implies the Company is no longer allowed to work with the government while suspended Companies are only temporarily banned from working with the government.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Requested By</p></td>
+    <td><p>The individual - whether from the government or the Contractor - who has Requested the Modification be Registered.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Requisition</p></td>
+    <td><p>Requisitions are quick government-to-government transfers that allow Agencies to acquire a broad range of products, supplies, and equipment. They are each provided numbers consisting of ten alphanumeric characters.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Requote Tracking Cd</p></td>
+    <td><p>Use only when needed.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Re-Submit button</p></td>
+    <td><p>This button is used to send information to Security and receive the Defined Rights..</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Review Performed</p></td>
+    <td><p>The Pre-Negotiation Clearance Panel (PNCP) is a process whereby Offers may be subjected to an audit prior to Contract Award. Though this audit is performed externally to the system, it was determined that PNCP information should be captured during the Offer and Modification evaluation process.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Rpt Off</p></td>
+    <td><p>The Reporting Office whose Contracts or Modifications you wish to view.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Rpt Office dropdown</p></td>
+    <td><p>Used to filter Report results by Reporting Office.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Sched Number</p></td>
+    <td><p>Enter a Schedule number to tailor your search results.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">SDF dropdown</p></td>
+    <td><p>Select a depot from the list.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Search By: AAC - Activity Address Code Starts With</p></td>
+    <td><p>A six-digit Code assigned to Vendors when their account is established with GSA. Used for a variety of purposes and is mandatory on all FEDSTRIP formats.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">SeqNo</p></td>
+    <td><p>A four-character string used to create a Solicitation number.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Serv Commodity Code dropdown</p></td>
+    <td><p>Used to identify if a Service or Commodity is being Procured through this Purchase Order.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Service/Commodity</p></td>
+    <td><p>Auto-populated field, indicates whether a Service or Commodity is being Procured under the Contract.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">SF-30 Approved</p></td>
+    <td><p>This is the date on which the CO/CS Approved the SF-30 associated with the Modification.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Ship/Delivery Code</p></td>
+    <td><p>Identifies whether the goods are going to be shipped or delivered. Shipping implies that a third party will be responsible for the transportation of the Product. Delivery implies that the Contractor will transport the Product to the required location.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Shipment/Delivery</p></td>
+    <td><p>This field will be used when a change to the shipment delivery value in the Contract is needed.</p></td>
+  </tr>
+  <tr class="term-eoffer">
+    <td><p class="term">SIP</p></td>
+    <td><p>Schedule Input Program -	a proprietary software program provided by GSA to assist Contract holders with uploading their electronic catalogue.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Spec Number</p></td>
+    <td><p>NSN level Specification number.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Submit button</p></td>
+    <td><p>Used to send the information to Security and receive the Defined Rights.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Substitution NSN</p></td>
+    <td><p>If applicable, an alternate NSN to be used should this Item be unavailable.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Supervisor</p></td>
+    <td><p>This field is used to indicate whether or not the new user is a Supervisor.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Supervisor Name</p></td>
+    <td><p>Identification of the new user's Supervisor. The Supervisor may be selected from a list of Supervisors according to the user's Office symbol. If not found, enter the email address of the Supervisor.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Supplier (S)</p></td>
+    <td><p>Identifies the Supplier's DUNS number under the Contract. Must be active in SAM (formerly CCR).</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Supplier DUNS Number dropdown</p></td>
+    <td><p>Enables the user to search for the DUNS number of the Contractor who will serve as the supplier of the goods under this Purchase Order.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">SvcCommCd</p></td>
+    <td><p>Indicates whether a Commodity or Service being Requisitioned.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Synopsis</p></td>
+    <td><p>Indicates whether a Contract has been synopsized and posted to FBO or another site, notifying Vendors of the Contract's existence.</p></td>
+  </tr>
+  <tr class="term-sws">
+    <td><p class="term">Synopsis</p></td>
+    <td><p>Solicitation description posted to FBO or another site, notifying Vendors of the Contract's existence.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">TAA</p></td>
+    <td><p>Indicates whether the country is subject to the Trade Agreement Act.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Tax/Other Cd</p></td>
+    <td><p>Identifies the tex associated with the Purchase under the Requisition.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Total By dropdown</p></td>
+    <td><p>Indicates whether the Report will sum cycle time at the Office or Acquisition Center level.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Type Contracting Pricing</p></td>
+    <td><p>Indicates the pricing structure of the Purchase Order, (e.g. Firm Fixed Price, Labor Hour, etc.).</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Type dropdown</p></td>
+    <td><p>Provides a list of 12&#43; Modification types to choose from.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Type Inspection dropdown</p></td>
+    <td><p>Identifies the type of inspection, if any, that will be performed upon delivery of the Product.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Type of Item Identification</p></td>
+    <td><p>NSN level Type of Item Identification.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Type of Setaside</p></td>
+    <td><p>Set-asides are used to target specific socio-economic business types (woman-owned, HubZone, veteran-owned, etc.). This is a Solicitation value and cannot be changed after the Contract is loaded.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Unit</p></td>
+    <td><p>Various types of units that will be used as the basis for processing or requesting goods in the Requisition.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Unit Cube</p></td>
+    <td><p>Identifies the number of units per cube.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Unit of Issue</p></td>
+    <td><p>Two-character Code used to identify the unit or measurement associated with the NSN.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Unit Pack</p></td>
+    <td><p>Identifies the number of units per pack.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Unit Pallet</p></td>
+    <td><p>Identifies the number of units per pallet.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Unit Ship Container</p></td>
+    <td><p>Identifies the number of units per shipping container.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Unit Weight</p></td>
+    <td><p>Identifies the weight of a unit.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">User ID Field</p></td>
+    <td><p>This dropdown menu is used to select the user whose access rights you want to change.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">User Role</p></td>
+    <td><p>Identify if the user is a Procurement Contracting Officer, Administrative Contracting Officer, Industrial Operations Analyst, etc. This informs the type of access the user will receive when working with FSS Online.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">User's Primary Role</p></td>
+    <td><p>Distinguishable from User Role in that it provides the level of access you will receive once assigned a role, (e.g., a Supervisor will typically receive more access than Procurement Staff).</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">User's Signature Auth</p></td>
+    <td><p>Identifies the highest Contract dollar amount the user can sign off on. This value must be included for PCOs, PCSs, and ACOs.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">User's Warrant Number</p></td>
+    <td><p>A unique number assigned to each Contracting Officer who holds a warrant. This is required for PCOs. Some ACOs may also be warranted.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Who Can Use</p></td>
+    <td><p>Identifies the Agency or Agencies that can use the Contract to obtain Products or Services.</p></td>
+  </tr>
+  <tr class="term-fss">
+    <td><p class="term">Zone/SDF</p></td>
+    <td><p>Used to allocate cost prince based on a delivery zone.</p></td>
+  </tr>
+</table>
+</html>
