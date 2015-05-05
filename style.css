@@ -1092,7 +1092,7 @@ a.section-heading:active {top:0px;}
 	position:fixed;
 	bottom:0;
 	right:2%;
-	background:#f7f7f7 url(../../common/images/scrollTopArrow.png) no-repeat 90% 50%;
+	background:#f7f7f7 url(images/scrollTopArrow.png) no-repeat 90% 50%;
 	z-index:1000;
 	border-top: 1px solid #222222;
 	border-right: 1px solid #222222;
