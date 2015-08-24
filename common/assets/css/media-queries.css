@@ -1,10 +1,25 @@
+@media screen and (max-width: 1380px) 	{
+
+.featuredTitle{
+	min-height:72px;
+	}
+}
+
+@media screen and (max-width: 1250px) 	{
+
+.featuredTitle{
+	min-height:82px;
+}
+
+}
 @media screen and (max-width: 1200px) 	{
 
 .featAddItem{width:50%;}
-											
+.featuredTitle{
+	min-height:42px;
+}										
 
 }
-
 @media screen and (max-width: 1100px) 	{
 #mainNav {margin-left:5.5%;margin-right:5.5%;}
 #navigationBar{

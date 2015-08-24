@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="Shortcut Icon" href="../images/favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>Featured Additions</title>
+    <!--[if lt IE 9]>
+  <script src="./assets/javascripts/html5.js"></script>
+<![endif]-->
+    <link rel="stylesheet" href="../common/assets/css/baseline.css" />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../common/assets/css/jquery.sidr.css">
+    <!--[if (gt IE 8) | (IEMobile)]><!-->
+    <link rel="stylesheet" href="../common/assets/css/unsemantic-grid-responsive.css" />
+    <!--<![endif]-->
+    <!--[if (lt IE 9) & (!IEMobile)]>
+  <link rel="stylesheet" href="../common/assets/css/ie.css" />
+<![endif]-->
+    <!-- Media Queries -->
+
+    <link rel="stylesheet" type="text/css" href="../common/assets/css/media-queries.css" />
+
+    <!-- Include Jquery -->
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+<!-- fancyBox (the lightbox feature) main JS and CSS files -->
+<script type="text/javascript" src="../common/library/fancybox2/source/jquery.fancybox.js"></script>
+<link rel="stylesheet" type="text/css"
+ href="../common/library/fancybox2/source/jquery.fancybox.css" media="screen"
+/>
+    <!-- Core Online User Guide JS file -->
+<script src="../common/core.js"></script>
+<!-- end core block -->
+    </head>
+    <body>
+
+
+<!-- Header and Main Navigation -->
+
+<div id="header" class="grid-100 mobile-grid-100">
+      <div id="navigationBar"> 
+
+        <div id="navButton"><a id="backButton" href="../index.html"></a>
+       </div>
+        <a href="../index.html" class="title">eOffer/eMod <span class="helpCenter">Help Center</span></a>
+
+   </div>
+     <div class="clearfix"></div>
+</div>
+
+<!-- Main Content -->
+
+<div id="mainContent" class="container-content depth-1">
+      <div class="grid-100 mobile-grid-100 align-center">
+
+        <div class="featuredAddition">
+          <div class="topicsBackground documentIcon">
+              <h3>May 2015 Release Notes Updates</h3>
+          </div>
+          <p class="featuredDate">10/28/2014</p>
+          <p>In May 2015, GSA implemented changes to the eOffer/eMod System. The follow changes have been made:
+          </p>
+          <ul>
+          <li><p>Price reduction modifications are now effective immediately upon submission.  This affects the following modifications:</p><ul><li><a href="../index.html#temporary-price-reduction">Temporary Price Reduction</a></li><li><a href="../index.html#permanent-price-reduction-based-on-most-favored-customer-">Permanent Price Reduction (based on Most Favored Customer)</a></li><li><a href="../index.html#permanent-price-reduction-industry-partner-requested-">Permanent Price Reduction (Industry Partner Request)</a></li></ul></li>
+          <li><p>Vendors may now respond to Solicitation Provisions in formatted text entry fields. Read about <a href="../index.html#responding-to-solicitation-provisions">Responding to Solicitation Provisions here</a>.</p></li>
+          </ul>
+          <p>The next release is in August of 2015. Check back to find out the latest updates.</p>
+      </div>
+        </div>
+    <div class="clearfix"></div>
+</div>
+<!-- End 100% grid container --> 
+
+<!-- End mainContent--> 
+    <!-- Start footer -->
+    <div id="footer">
+      <p>
+        Brought to you by OAM &amp; Elucid Solutions Inc<br />There have
+        been
+        <script id="mphitcount"
+          src="http://mphitcount.appspot.com/mphitcount"></script>
+        views of this page.
+      </p>
+    </div>
+    <!-- End Footer -->
+
+
+<!-- FancyBox Script --> 
+
+<!-- Fancybox HelpGallery --> 
+
+<script type="text/javascript">
+    $(document).ready(function() {
+
+      $("a.fancybox").fancybox({
+        transitionIn : 'elastic',
+        transitionOut : 'elastic',
+        speedIn : 600,
+        speedOut : 200,
+        overlayShow : false,
+        autoCenter : true,
+        autoResize : true,
+        closeClick : true,
+        beforeShow : function() {
+          var alt = this.element.find('img').attr('alt');
+          this.inner.find('img').attr('alt', alt);
+          this.title = alt;
+        },
+        titleShow : true,
+        padding : 0,
+        helpers : {
+          overlay : {
+            locked : false
+          }
+        }
+
+      });
+
+    });
+  </script> 
+<!-- make sure fancybox appears on top of sidr -->
+<style>
+.fancybox-wrap {
+  z-index: 1000001;
+}
+
+.fancybox-overlay {
+  z-index: 1000000;
+}
+</style>
+
+<!-- End Screenshot popups -->
+</body>
+</html>
